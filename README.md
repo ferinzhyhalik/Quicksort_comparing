@@ -1,12 +1,12 @@
 # Quicksort_comparing
 
-Parallel vs Singular Quicksort Comparison
+Operation System UPH 2017/2018 Parallel vs Singular Quicksort Comparison
 
 ## What is needed
 
 * GCC
 
-##installing
+## installing
 1. Download quicksort.c and quicksort_parallel.c
 2. Make sure the file is can be compiled 
 3. Execute file using  "./quicksort (samplesize).txt" or "./quicksort_parallel (samplesize).txt"
@@ -45,11 +45,12 @@ Test is done with both sequential and parallel quicksort programs to find the ti
 
 ### Line Graph Comparison
 
-![Graph]
+![Comparison Graph](https://github.com/ferinzhyhalik/Quicksort_comparing/blob/master/quicksort%20chart.PNG)
 
 ### Result analysis
 
-From the result we can conclude that sequential quicksort is faster than parallel quicksort. But may be vary if the sample data have more datas etc.
+From the result we can conclude that sequential quicksort is faster than parallel quicksort. But may be vary if the sample data have more datas etc. Another thing that have a significant impact of a program runtime are the hardware that the user used. In the end , the time for each user may be vary.
+Parallel quicksort have so much work to do in so little time (racing against sequential).
 
 ## Authors
 
@@ -58,4 +59,5 @@ From the result we can conclude that sequential quicksort is faster than paralle
 
 ## Acknowledgments
 
-* Quicksort program taken from [markwkm quicksort repository](https://github.com/markwkm/quicksort)
+* Quicksort program used are taken from [markwkm quicksort repository](https://github.com/markwkm/quicksort)
+* Template README.md used are taken from [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
