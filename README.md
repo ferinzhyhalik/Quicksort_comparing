@@ -9,6 +9,8 @@ Parallel vs Singular Quicksort Comparison
 ##installing
 1. Download quicksort.c and quicksort_parallel.c
 2. Make sure the file is can be compiled 
+3. Execute file using  "./quicksort (samplesize).txt" or "./quicksort_parallel (samplesize).txt"
+
 ## Running the tests
 
 Test is done with both sequential and parallel quicksort programs to find the time taken to finish quicksorting with a sample size of 10, 100, 1000 and 10000.
