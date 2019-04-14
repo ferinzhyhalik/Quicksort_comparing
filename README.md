@@ -4,7 +4,7 @@ Operation System UPH 2017/2018 Parallel vs Singular Quicksort Comparison
 
 ## What is needed
 
-* GCC
+1. GCC
 
 ## installing
 1. Download quicksort.c and quicksort_parallel.c
